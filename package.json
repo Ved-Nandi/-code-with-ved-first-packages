@@ -1,0 +1,20 @@
+{
+  "name": "@code-with-ved/first-packages",
+  "version": "1.0.0",
+  "description": "lerning how to publish npm packages",
+  "main": "index.cjs",
+  "module": "index.mjs",
+  "access": "public",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ved",
+  "license": "ISC"
+}
